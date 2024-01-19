@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabla de Productos</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css" />
+      </head>
+<body>
+        <h1>Tabla de Productos</h1>
+    <div>
+      <input type="text" id="nombreProducto" placeholder="Ingrese un producto/servicio">
+      <input type="number" id="valorProducto" placeholder="Ingrese el valor del producto/servicio">
+      <input type="number" id="cuotasProducto" placeholder="Ingrese a cuantas cuotas se va a pagar">
+      <button onclick="agregarProducto()">Agregar producto</button>
+    </div>
+    <table id="tablaProductos">
+      <tr>
+        <th>Producto</th>
+        <th>Valor</th>
+        <th>Cuotas</th>
+        <th>Pago Mensual</th>
+      </tr>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
